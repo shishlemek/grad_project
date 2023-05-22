@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DMSocial</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="img/logo.png" class="logo" alt="">
+        <ul class="links-container">
+            <li class="link-item"><a href="home.html" class="link">home</a></li>
+            <li class="link-item"><a href="index.php" class="link">post</a></li>
+            <li class="link-item"><a href="register.html" class="link">Sign in</a></li>
+            <li class="link-item"><a href="post_page.php" class="link">View Posts</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Registration</h1>
+        <form action="register.php" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" required><br>
+            <label for="username">Email:</label>
+            <input type="email" name="email" id="email" required><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required><br>
+            <input type="submit" value="Register now">
+            <label for="password">Already have an account?<a href="login.html">Log in here</a></label>
+        </form>
+    </div>
+</body>
+
+</html>
